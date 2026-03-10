@@ -50,6 +50,7 @@ const countdownE2 = document.getElementById("countdown-timer2");
   
     if (diff <= 0) {
       countdownEl.textContent = "Submission closed";
+      countdownE2.textContent = "Submission closed";
       return;
     }
   
