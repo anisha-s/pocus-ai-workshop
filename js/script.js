@@ -40,7 +40,7 @@ const observer = new IntersectionObserver(entries => {
   /* ---------- Submission countdown ---------- */
   const countdownEl = document.getElementById("countdown-timer");
 const countdownE2 = document.getElementById("countdown-timer2");
-  const deadline = new Date("2026-03-09T22:59:59Z").getTime();
+  const deadline = new Date("2026-03-12T22:59:59Z").getTime();
   
   function updateCountdown() {
     if (!countdownEl) return;
